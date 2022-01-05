@@ -1,21 +1,121 @@
 body {
     margin: 0;
-    font-family: 'Lobster', cursive;
-    font-family: 'Manrope', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Yeseva One', cursive;
 }
 
+.sec1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    margin-top: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+/* font-family: 'Lobster', cursive;
+font-family: 'Manrope', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Yeseva One', cursive; */
+
 h1 {
-    position: absolute;
-    width: 503px;
-    height: 160px;
-    left: 141px;
-    top: 156px;
     font-family: Yeseva One;
     font-style: normal;
     font-weight: normal;
     font-size: 60px;
     line-height: 80px;
+}
+
+.th1 {
+    border-left: 5px solid;
+    border-image: linear-gradient(#FF5959, rgb(255, 77, 46));
+    border-image-slice: 1;
+    padding-left: 15px;
+    border-radius: 50%;
+}
+
+img {
+    width: 40%;
+    padding-left: 5px;
+}
+
+.s2pic {
+    width: 40%;
+}
+
+.p1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.h1s2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.buttons {
+    background-color: #FF5959;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+}
+
+.daddydiv {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.sons {
+    background-color: burlywood;
+    display: block;
+    margin: 0 auto;
+    margin: 0px 2%;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 26px;
+}
+
+.sec3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    margin-top: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.s3s4head {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+}
+
+.s3wr {
+    margin-left: 10%;
+}
+
+.sec4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    margin-top: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.s4wr {
+    margin-left: 10%;
 }
