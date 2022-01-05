@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Yeseva One', cursive;
+}
+
+h1 {
+    position: absolute;
+    width: 503px;
+    height: 160px;
+    left: 141px;
+    top: 156px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 80px;
+}
